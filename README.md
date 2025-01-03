@@ -25,5 +25,5 @@ Clean and responsive design
 
 ### Contact
 Feel free to reach out if you have any suggestions or feedback.
-- [Email](Shaikahmad.2@outlook.com)
+- **Email** : Shaikahmad.2@outlook.com
 - [LinkedIn](https://www.linkedin.com/in/shaikahmad/)
