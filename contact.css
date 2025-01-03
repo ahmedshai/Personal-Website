@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Kode+Mono:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    overflow-x:hidden;
+    margin: 0;
+    padding:0;
+    background:linear-gradient(155deg,#fff,#A46CEA);
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+::-webkit-scrollbar {
+    width: 3px;
+    cursor: pointer;
+}
+::-webkit-scrollbar-track {
+    background:#000; 
+}
+::-webkit-scrollbar-thumb {
+    background: #15297D; 
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #2C54FF; 
+}
+a{
+    text-decoration: none;
+}
+#logo{
+    position:relative;
+    width:50px;
+    font-size: 25px;
+    left:100px;
+    font-family: "Anta", sans-serif;
+    top:20px;
+    color:#A46CEA;
+    cursor:pointer;
+}
+#logo::after{
+    content:"";
+    position:absolute;
+    width:50px;
+    height:50px;
+    border:1px solid #A46CEA;
+    transform:rotate(45deg);
+    left:-10px;
+    top:-7px;
+}
+.nav-links{
+    position:absolute;
+    left:500px;
+    top:0px;
+}
+li{
+    list-style-type: none;
+    display:inline-block;
+    margin-left:20px;
+    font-size: 17pt;
+    font-family: 'Poppins',sans-serif;
+    font-weight:700;
+}
+li a{
+    color: #403D6C;
+    transition-duration: 1s;
+}
+#link{
+    color:#433baf;
+    text-decoration: solid underline 2px;
+}
+li a:hover,
+li a:focus{
+    color:#433baf;
+    text-decoration: solid underline 2px;
+}
+#navbar{
+    position:relative;
+    top:0;
+    width:100%;
+    height:80px;
+    z-index:100;
+}
+#nav-btn,#btn{
+    display: none;
+}
+#hire{
+    position:absolute;
+    width:50px;
+    height:50px;
+    background-color: transparent;
+    border:none;
+    font-size:20px;
+    transform: scale(1.2);
+    top:6px;
+    right:90px;
+    z-index:100;
+    cursor:pointer;
+    color:#433baf;
+}
+/*Nav Bar Ends-----------------------------------------------------*/
+.home{
+    display: flex;
+    flex-direction:row;
+    font-family: "Poppins",sans-serif;
+    margin-left: 100px;
+}
+.intouch{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.intouch h1{
+    font-size: 50px;
+}
+.intouch h1 span{
+    color: #089c84;
+}
+.intouch p{
+    font-size: 25px;
+    width:60%;
+    margin-top: -20px;
+}
+.intouch span{
+    margin-top: 15px;
+}
+.intouch span i{
+    font-size: 20px;
+}
+.intouch a{
+    color: #000;
+    font-size: 20px;
+    margin-left: 20px;
+    transition:1s;
+}
+.intouch a:hover{
+    opacity:0.9;
+}
+.home .img{
+    position:relative;
+    width:500px;
+    height:350px;
+    overflow: hidden;
+    border-radius:50%;
+    margin-top: 100px;
+    margin-right:50px;
+}
+.home .img img{
+    width:350px;
+    height:350px;
+    opacity: 0.85;
+}
+/*Home End-------------------------------*/
+footer{
+    position:relative;
+    height:250px;
+    margin-top:200px ;
+}
+#links{
+    position:relative;
+    left:40px;
+}
+#social{
+    position:absolute;
+    top:-8px;
+    right:50px;
+    z-index: 100;
+}
+#social button{
+    width:50px;
+    height:50px;
+    background: transparent;
+    border: none;
+    border-radius: 50%;
+    color: #000;
+    font-size: 20px;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+#social button:nth-child(1):hover{
+    background:#15d315;
+    color: #fff;
+}
+#social button:nth-child(2):hover{
+    background:#ED028F;
+    color: #fff;
+}
+#social button:nth-child(3):hover{
+    background:#0A66C2;
+    color: #fff;
+}
+#social button:nth-child(4):hover{
+    background:#000;
+    color: #fff;
+}
+.collab{
+    position:relative;
+    left:100px;
+    top:50px;
+}
+.collab h3{
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    left:50px;
+    
+}
+.collab button{
+    width:150px;
+    height:40px;
+    border-radius: 15px;
+    border: none;
+    color: #fff;
+    background:#000;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+.collab #btn1:hover{
+    background-color: #ED028F;
+}
+.collab #btn2:hover{
+    background-color: #0A66C2;
+}
+.rights{
+    position:relative;
+    bottom:20px;
+    left:1100px;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+}
